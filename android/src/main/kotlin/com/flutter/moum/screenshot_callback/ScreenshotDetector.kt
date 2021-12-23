@@ -30,7 +30,7 @@ class ScreenshotDetector(
     private fun reportScreenshotsUpdate(uri: Uri) {
         val screenshots = queryScreenshots(uri)
         if (screenshots.isNotEmpty()) {
-            callback.invoke(screenshots.last());
+            callback.invoke(screenshots.last())
         }
     }
 
