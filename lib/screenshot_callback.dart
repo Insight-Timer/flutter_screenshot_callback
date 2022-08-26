@@ -17,8 +17,9 @@ class ScreenshotCallback {
   /// Defaults to `true`.
   bool? requestPermissions;
 
-  ScreenshotCallback({this.requestPermissions}) {
-    requestPermissions ??= true;
+  ScreenshotCallback({
+    this.requestPermissions = true,
+  }) {
     initialize();
   }
 
