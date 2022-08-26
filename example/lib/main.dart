@@ -4,6 +4,8 @@ import 'package:screenshot_callback/screenshot_callback.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatefulWidget {
+  const MyApp({Key? key}) : super(key: key);
+
   @override
   _MyAppState createState() => _MyAppState();
 }
@@ -54,7 +56,7 @@ class _MyAppState extends State<MyApp> {
         ),
         body: Center(
           child: Text(text,
-              style: TextStyle(
+              style: const TextStyle(
                 fontWeight: FontWeight.bold,
               )),
         ),
