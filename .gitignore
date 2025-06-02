@@ -101,3 +101,13 @@ unlinked_spec.ds
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 
 .fvm/
+
+# Android related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/app/.cxx
